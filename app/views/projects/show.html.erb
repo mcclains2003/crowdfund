@@ -1,0 +1,30 @@
+<article>
+  <header>
+    <h1><%= @project.name %></h1>
+    <%= image_for(@project) %>
+  </header>
+  <h2>Description:</h2>
+  <p>
+    <%= @project.description %>
+  </p>
+  <h3>Pledge Goal:</h3>
+  <p>
+    <%= number_to_currency(@project.target_pledge_amount) %>
+  </p>
+  <h3>Pledge End Date:</h3>
+  <p>
+    <%= format_pledge_end(@project) %> remaining
+  </p>
+  <h3>Website:</h3>
+  <p>
+    <%= @project.website %>
+  </p>
+  <h3>Team Members:</h3>
+  <p>
+    <%= pluralize(@project.team_members, 'Team Member') %>
+  </p>
+</article>
+
+<%= link_to("All Projects", projects_path) %> |
+<%= link_to("Edit", edit_project_path) %> |
+<%= link_to("Delete", project_path(@project), method: :delete, data: {confirm: "Are you sure"}) %>
