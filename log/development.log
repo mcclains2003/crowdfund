@@ -6206,3 +6206,1917 @@ Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-21 17:21:58 -0500
 
 
 Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-21 17:21:58 -0500
+
+
+Started GET "/movies/" for 127.0.0.1 at 2015-09-22 10:55:48 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.5ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/movies"):
+  actionpack (4.1.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.9) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.9) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.9) lib/rails/engine.rb:514:in `call'
+  railties (4.1.9) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/routes/_table.html.erb (8.2ms)
+  Rendered /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (81.8ms)
+
+
+Started GET "/movies" for 127.0.0.1 at 2015-09-22 10:55:48 -0500
+
+ActionController::RoutingError (No route matches [GET] "/movies"):
+  actionpack (4.1.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.9) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.9) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.9) lib/rails/engine.rb:514:in `call'
+  railties (4.1.9) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.0ms)
+  Rendered /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.3ms)
+  Rendered /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/routes/_table.html.erb (1.1ms)
+  Rendered /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (60.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 10:55:49 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.8ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 15:55:49.079554')
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 15:55:49.079554')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (35.6ms)
+Completed 200 OK in 119ms (Views: 99.2ms | ActiveRecord: 1.6ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 10:55:49 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 10:55:49 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 10:55:49 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 10:55:49 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 10:55:49 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 10:55:49 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 10:55:49 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 10:55:49 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 10:55:49 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 10:55:49 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 10:55:49 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 10:56:04 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 15:56:04.817035')
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 15:56:04.817035')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (6.5ms)
+Completed 200 OK in 48ms (Views: 47.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 10:56:04 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 10:56:04 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 10:56:04 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 10:56:04 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 10:56:04 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 10:56:04 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 10:56:04 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 10:56:04 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 10:56:04 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 10:56:04 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 10:56:04 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 11:09:36 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:09:36.173984')
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:09:36.173984')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 55ms (Views: 51.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 11:09:36 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 11:09:36 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 11:09:36 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 11:09:36 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 11:09:36 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 11:09:36 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 11:09:36 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 11:09:36 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 11:09:36 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 11:09:36 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 11:09:36 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 11:09:52 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:09:52.022337')
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:09:52.022337')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (6.3ms)
+Completed 200 OK in 48ms (Views: 46.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 11:09:52 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 11:09:52 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 11:09:52 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 11:09:52 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 11:09:52 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 11:09:52 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 11:09:52 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 11:09:52 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 11:09:52 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 11:09:52 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 11:09:52 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 11:11:59 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:11:59.985710')
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:11:59.985710')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (5.4ms)
+Completed 200 OK in 42ms (Views: 40.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 11:12:00 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 11:12:00 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 11:12:00 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 11:12:00 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 11:12:00 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 11:12:00 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 11:12:00 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 11:12:00 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 11:12:00 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 11:12:00 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 11:12:00 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 11:12:16 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:12:16.946353')
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:12:16.946353')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (7.7ms)
+Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 11:12:17 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 11:12:17 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 11:12:17 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 11:12:17 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 11:12:17 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 11:12:17 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 11:12:17 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 11:12:17 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 11:12:17 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 11:12:17 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 11:12:17 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 11:13:50 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:13:50.065788')
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:13:50.065788')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (5.5ms)
+Completed 500 Internal Server Error in 64ms
+
+ActionView::Template::Error (undefined local variable or method `www' for #<#<Class:0x007f821df213a8>:0x007f821d8db688>):
+    30: <footer>
+    31:   <p>
+    32:     Copyright &copy; 2015 
+    33:     <%= link_to("Bank of Shaun", www.espn.com) %>
+    34:   </p>
+    35: </footer>
+    36: 
+  app/views/layouts/application.html.erb:33:in `_app_views_layouts_application_html_erb___1896629422033709745_70098409114480'
+
+
+  Rendered /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.6ms)
+  Rendered /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.0ms)
+  Rendered /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (49.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 11:14:14 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:14:14.511112')
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:14:14.511112')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (4.4ms)
+Completed 200 OK in 37ms (Views: 35.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 11:14:14 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 11:14:14 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 11:14:14 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 11:14:14 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 11:14:14 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 11:14:14 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 11:14:14 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 11:14:14 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 11:14:14 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 11:14:14 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 11:14:14 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 11:15:23 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:15:23.800944')
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:15:23.800944')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (5.0ms)
+Completed 200 OK in 47ms (Views: 45.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 11:15:23 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 11:15:23 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 11:15:23 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 11:15:23 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 11:15:23 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 11:15:23 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 11:15:23 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 11:15:23 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 11:15:23 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 11:15:23 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 11:15:23 -0500
+
+
+Started GET "/projects/1" for 127.0.0.1 at 2015-09-22 11:16:48 -0500
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProject Load (0.2ms)[0m  SELECT  "projects".* FROM "projects"  WHERE "projects"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered projects/show.html.erb within layouts/application (2.5ms)
+Completed 200 OK in 38ms (Views: 36.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 11:16:48 -0500
+
+
+Started GET "/projects/1/edit" for 127.0.0.1 at 2015-09-22 11:16:51 -0500
+Processing by ProjectsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT  "projects".* FROM "projects"  WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 1]]
+  Rendered projects/_form.html.erb (14.1ms)
+  Rendered projects/edit.html.erb within layouts/application (17.1ms)
+Completed 200 OK in 48ms (Views: 45.8ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/projects/1" for 127.0.0.1 at 2015-09-22 11:17:16 -0500
+Processing by ProjectsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eiySyWVUWM4sp2bZtYxvyb7Rdfy0b5atNaN39ZdsBJ0=", "project"=>{"name"=>"OvenBits Bakery", "description"=>"Baking the tiniest pastries at the biggest prices.", "target_pledge_amount"=>"100000", "pledging_ends_on(1i)"=>"2016", "pledging_ends_on(2i)"=>"5", "pledging_ends_on(3i)"=>"2", "website"=>"www.ovenbitsbakery.com", "team_members"=>"4", "image_file_name"=>"ovenbits.jpg"}, "commit"=>"Update Project", "id"=>"1"}
+  [1m[35mProject Load (0.2ms)[0m  SELECT  "projects".* FROM "projects"  WHERE "projects"."id" = ? LIMIT 1  [["id", 1]]
+  [1m[36m (0.2ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (1.1ms)[0m  UPDATE "projects" SET "description" = ?, "updated_at" = ? WHERE "projects"."id" = 1  [["description", "Baking the tiniest pastries at the biggest prices."], ["updated_at", "2015-09-22 16:17:16.039288"]]
+  [1m[36m (1.1ms)[0m  [1mcommit transaction[0m
+Redirected to http://localhost:3000/projects/1
+Completed 302 Found in 12ms (ActiveRecord: 2.6ms)
+
+
+Started GET "/projects/1" for 127.0.0.1 at 2015-09-22 11:17:16 -0500
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProject Load (0.2ms)[0m  SELECT  "projects".* FROM "projects"  WHERE "projects"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered projects/show.html.erb within layouts/application (2.4ms)
+Completed 200 OK in 38ms (Views: 36.3ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 11:17:16 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 11:17:16 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 11:17:16 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 11:17:16 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 11:17:16 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 11:17:16 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 11:17:16 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 11:17:16 -0500
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-09-22 11:17:21 -0500
+Processing by ProjectsController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:17:21.975268')[0m
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:17:21.975268')  ORDER BY pledging_ends_on
+  Rendered projects/index.html.erb within layouts/application (6.6ms)
+Completed 200 OK in 42ms (Views: 40.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 11:17:22 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 11:17:22 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 11:17:22 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 11:17:22 -0500
+
+
+Started GET "/projects/3" for 127.0.0.1 at 2015-09-22 11:17:38 -0500
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProject Load (0.1ms)[0m  [1mSELECT  "projects".* FROM "projects"  WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered projects/show.html.erb within layouts/application (1.4ms)
+Completed 200 OK in 38ms (Views: 37.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 11:17:38 -0500
+
+
+Started GET "/projects/3/edit" for 127.0.0.1 at 2015-09-22 11:17:47 -0500
+Processing by ProjectsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mProject Load (0.2ms)[0m  SELECT  "projects".* FROM "projects"  WHERE "projects"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered projects/_form.html.erb (4.8ms)
+  Rendered projects/edit.html.erb within layouts/application (7.2ms)
+Completed 200 OK in 39ms (Views: 37.3ms | ActiveRecord: 0.2ms)
+
+
+Started PATCH "/projects/3" for 127.0.0.1 at 2015-09-22 11:18:05 -0500
+Processing by ProjectsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"eiySyWVUWM4sp2bZtYxvyb7Rdfy0b5atNaN39ZdsBJ0=", "project"=>{"name"=>"Solo Wookies Razors", "description"=>"Giving hairy men a chance to show a little skin.", "target_pledge_amount"=>"25000", "pledging_ends_on(1i)"=>"2015", "pledging_ends_on(2i)"=>"10", "pledging_ends_on(3i)"=>"1", "website"=>"www.giveupthewookie.com", "team_members"=>"1", "image_file_name"=>""}, "commit"=>"Update Project", "id"=>"3"}
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT  "projects".* FROM "projects"  WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 3]]
+  [1m[35m (0.1ms)[0m  begin transaction
+  [1m[36mSQL (8.6ms)[0m  [1mUPDATE "projects" SET "name" = ?, "updated_at" = ? WHERE "projects"."id" = 3[0m  [["name", "Solo Wookies Razors"], ["updated_at", "2015-09-22 16:18:05.962793"]]
+  [1m[35m (1.2ms)[0m  commit transaction
+Redirected to http://localhost:3000/projects/3
+Completed 302 Found in 15ms (ActiveRecord: 10.0ms)
+
+
+Started GET "/projects/3" for 127.0.0.1 at 2015-09-22 11:18:05 -0500
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT  "projects".* FROM "projects"  WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered projects/show.html.erb within layouts/application (1.6ms)
+Completed 200 OK in 37ms (Views: 34.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 11:18:06 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 11:18:06 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 11:18:06 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 11:18:06 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 11:18:06 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 11:18:06 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 11:18:06 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 11:18:06 -0500
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-09-22 11:18:10 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:18:10.288277')
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:18:10.288277')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (4.1ms)
+Completed 200 OK in 32ms (Views: 30.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 11:18:10 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 11:18:10 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 11:18:10 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 11:18:10 -0500
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-09-22 11:18:31 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:18:31.339516')
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:18:31.339516')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (5.7ms)
+Completed 200 OK in 41ms (Views: 39.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 11:18:31 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 11:18:31 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 11:18:31 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 11:18:31 -0500
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-09-22 11:20:38 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:20:39.002683')
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:20:39.002683')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (4.4ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+Completed 200 OK in 45ms (Views: 44.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 11:20:39 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 11:20:39 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 11:20:39 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 11:20:39 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 11:20:39 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 11:20:39 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 11:20:39 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 11:20:39 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 11:20:39 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 11:20:39 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 11:20:39 -0500
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-09-22 11:21:19 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:21:19.266301')
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:21:19.266301')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+Completed 200 OK in 38ms (Views: 36.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 11:21:19 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 11:21:19 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 11:21:19 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 11:21:19 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 11:21:19 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 11:21:19 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 11:21:19 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 11:21:19 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 11:21:19 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 11:21:19 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 11:21:19 -0500
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-09-22 11:21:48 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:21:48.808620')
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:21:48.808620')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.6ms)
+Completed 500 Internal Server Error in 43ms
+
+ActionView::Template::Error (Missing partial layouts/_footer with {:locale=>[:en], :formats=>[:html], :variants=>[], :handlers=>[:erb, :builder, :raw, :ruby, :coffee, :jbuilder]}. Searched in:
+  * "/Users/shaunmcclain/rails_studio/crowdfund/app/views"
+):
+    15: 
+    16: <%= yield %>
+    17: 
+    18: <%= render 'layouts/footer' %>
+    19: 
+    20: </body>
+    21: </html>
+  app/views/layouts/application.html.erb:18:in `_app_views_layouts_application_html_erb___1896629422033709745_70098410658160'
+
+
+  Rendered /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.5ms)
+  Rendered /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (52.1ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-09-22 11:22:23 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:22:23.168811')
+  [1m[36mProject Load (0.4ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:22:23.168811')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (6.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 46ms (Views: 45.0ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 11:22:23 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 11:22:23 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 11:22:23 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 11:22:23 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 11:22:23 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 11:22:23 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 11:22:23 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 11:22:23 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 11:22:23 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 11:22:23 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 11:22:23 -0500
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-09-22 11:24:17 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:24:17.024442')
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:24:17.024442')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (6.2ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 39ms (Views: 38.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 11:24:17 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 11:24:17 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 11:24:17 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 11:24:17 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 11:24:17 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 11:24:17 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 11:24:17 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 11:24:17 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 11:24:17 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 11:24:17 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 11:24:17 -0500
+
+
+Started GET "/projects/3" for 127.0.0.1 at 2015-09-22 11:24:23 -0500
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mProject Load (0.1ms)[0m  SELECT  "projects".* FROM "projects"  WHERE "projects"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered projects/show.html.erb within layouts/application (1.8ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_sidebar.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 40ms (Views: 38.7ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 11:24:23 -0500
+
+
+Started GET "/projects/3/edit" for 127.0.0.1 at 2015-09-22 11:24:35 -0500
+Processing by ProjectsController#edit as HTML
+  Parameters: {"id"=>"3"}
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT  "projects".* FROM "projects"  WHERE "projects"."id" = ? LIMIT 1[0m  [["id", 3]]
+  Rendered projects/_form.html.erb (6.1ms)
+  Rendered projects/edit.html.erb within layouts/application (8.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 49ms (Views: 46.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-09-22 11:24:39 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:24:39.853123')
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:24:39.853123')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 40ms (Views: 38.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 11:24:39 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 11:24:39 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 11:24:39 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 11:24:39 -0500
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-09-22 11:24:41 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:24:41.880719')
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:24:41.880719')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 39ms (Views: 38.1ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 11:24:41 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 11:24:41 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 11:24:41 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 11:24:41 -0500
+
+
+Started GET "/projects/1" for 127.0.0.1 at 2015-09-22 11:24:44 -0500
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[35mProject Load (0.2ms)[0m  SELECT  "projects".* FROM "projects"  WHERE "projects"."id" = ? LIMIT 1  [["id", 1]]
+  Rendered projects/show.html.erb within layouts/application (2.2ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 39ms (Views: 37.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 11:24:44 -0500
+
+
+Started GET "/projects" for 127.0.0.1 at 2015-09-22 11:24:48 -0500
+Processing by ProjectsController#index as HTML
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:24:48.784743')[0m
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 16:24:48.784743')  ORDER BY pledging_ends_on
+  Rendered projects/index.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 42ms (Views: 40.4ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 11:24:48 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 11:24:48 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 11:24:48 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 11:24:48 -0500
+
+
+Started GET "/movies" for 127.0.0.1 at 2015-09-22 14:51:40 -0500
+  [1m[36mActiveRecord::SchemaMigration Load (0.6ms)[0m  [1mSELECT "schema_migrations".* FROM "schema_migrations"[0m
+
+ActionController::RoutingError (No route matches [GET] "/movies"):
+  actionpack (4.1.9) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.1.9) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.1.9) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.1.9) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.5.5) lib/rack/methodoverride.rb:21:in `call'
+  rack (1.5.5) lib/rack/runtime.rb:17:in `call'
+  activesupport (4.1.9) lib/active_support/cache/strategy/local_cache_middleware.rb:26:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  actionpack (4.1.9) lib/action_dispatch/middleware/static.rb:84:in `call'
+  rack (1.5.5) lib/rack/sendfile.rb:112:in `call'
+  railties (4.1.9) lib/rails/engine.rb:514:in `call'
+  railties (4.1.9) lib/rails/application.rb:144:in `call'
+  rack (1.5.5) lib/rack/lock.rb:17:in `call'
+  rack (1.5.5) lib/rack/content_length.rb:14:in `call'
+  rack (1.5.5) lib/rack/handler/webrick.rb:60:in `service'
+  /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:138:in `service'
+  /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/httpserver.rb:94:in `run'
+  /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/2.2.0/webrick/server.rb:294:in `block in start_thread'
+
+
+  Rendered /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.2ms)
+  Rendered /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/routes/_route.html.erb (1.6ms)
+  Rendered /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/routes/_table.html.erb (10.8ms)
+  Rendered /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (88.8ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 14:51:41 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 19:51:41.048223')
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 19:51:41.048223')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (32.7ms)
+  Rendered layouts/_header.html.erb (0.4ms)
+  Rendered layouts/_sidebar.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.5ms)
+Completed 200 OK in 130ms (Views: 116.0ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 14:51:41 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 14:51:41 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 14:51:41 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 14:51:41 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 14:51:41 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 14:51:41 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 14:51:41 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 14:51:41 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 19:51:41.271285')
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 19:51:41.271285')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (5.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 45ms (Views: 43.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 14:51:41 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 14:51:41 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 14:51:41 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 14:51:41 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 14:51:41 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 14:51:41 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 14:51:41 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 14:51:41 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 14:51:41 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 14:51:41 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 14:51:41 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 15:02:37 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:02:37.357457')
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:02:37.357457')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (5.9ms)
+Completed 500 Internal Server Error in 38ms
+
+ActionView::Template::Error (Undefined variable: "$primary".
+  (in /Users/shaunmcclain/rails_studio/crowdfund/app/assets/stylesheets/layouts.css.scss:3)):
+    2: <html>
+    3: <head>
+    4:   <title>Niche Funding</title>
+    5:   <%= stylesheet_link_tag    "application", media: "all", "data-turbolinks-track" => true %>
+    6:   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
+    7:   <%= csrf_meta_tags %>
+    8: </head>
+  app/assets/stylesheets/layouts.css.scss:3
+  app/views/layouts/application.html.erb:5:in `_app_views_layouts_application_html_erb__4360909687262679642_70100585710140'
+
+
+  Rendered /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.5ms)
+  Rendered /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.2ms)
+  Rendered /Users/shaunmcclain/.rbenv/versions/2.2.2/lib/ruby/gems/2.2.0/gems/actionpack-4.1.9/lib/action_dispatch/middleware/templates/rescues/template_error.html.erb within rescues/layout (49.5ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 15:02:56 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:02:56.798439')
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:02:56.798439')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (5.9ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 88ms (Views: 86.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/_colors.css?body=1" for 127.0.0.1 at 2015-09-22 15:02:56 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 15:02:56 -0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 15:02:56 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 15:02:56 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 15:02:56 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 15:02:56 -0500
+
+
+Started GET "/assets/layouts.css?body=1" for 127.0.0.1 at 2015-09-22 15:02:56 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 15:02:56 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 15:02:56 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 15:02:56 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 15:02:56 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 15:02:56 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 15:02:56 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 15:04:18 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:04:18.719396')
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:04:18.719396')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (4.7ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 83ms (Views: 81.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/_colors.css?body=1" for 127.0.0.1 at 2015-09-22 15:04:18 -0500
+
+
+Started GET "/assets/layouts.css?body=1" for 127.0.0.1 at 2015-09-22 15:04:18 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 15:04:18 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 15:04:18 -0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 15:04:18 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 15:04:18 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 15:04:18 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 15:04:18 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 15:04:18 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 15:04:18 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 15:04:18 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 15:04:18 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 15:04:18 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 15:04:32 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:04:32.217149')
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:04:32.217149')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (6.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 88ms (Views: 86.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/_colors.css?body=1" for 127.0.0.1 at 2015-09-22 15:04:32 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 15:04:32 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 15:04:32 -0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 15:04:32 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 15:04:32 -0500
+
+
+Started GET "/assets/layouts.css?body=1" for 127.0.0.1 at 2015-09-22 15:04:32 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 15:04:32 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 15:04:32 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 15:04:32 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 15:04:32 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 15:04:32 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 15:04:32 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 15:04:32 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 15:05:01 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:05:01.921444')
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:05:01.921444')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 50ms (Views: 48.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/layouts.css?body=1" for 127.0.0.1 at 2015-09-22 15:05:01 -0500
+
+
+Started GET "/assets/_colors.css?body=1" for 127.0.0.1 at 2015-09-22 15:05:01 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 15:05:02 -0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 15:05:02 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 15:05:02 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 15:05:02 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 15:05:02 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 15:05:02 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 15:05:02 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 15:05:02 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 15:05:02 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 15:05:02 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 15:05:02 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 15:05:15 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:05:15.307999')
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:05:15.307999')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (6.3ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 88ms (Views: 86.3ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/_colors.css?body=1" for 127.0.0.1 at 2015-09-22 15:05:15 -0500
+
+
+Started GET "/assets/layouts.css?body=1" for 127.0.0.1 at 2015-09-22 15:05:15 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 15:05:15 -0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 15:05:15 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 15:05:15 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 15:05:15 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 15:05:15 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 15:05:15 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 15:05:15 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 15:05:15 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 15:05:15 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 15:05:15 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 15:05:15 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 15:08:57 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:08:57.358190')
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:08:57.358190')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (5.2ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 70ms (Views: 68.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/_colors.css?body=1" for 127.0.0.1 at 2015-09-22 15:08:57 -0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 15:08:57 -0500
+
+
+Started GET "/assets/layouts.css?body=1" for 127.0.0.1 at 2015-09-22 15:08:57 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 15:08:57 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 15:08:57 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 15:08:57 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 15:08:57 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 15:08:57 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 15:08:57 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 15:08:57 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 15:08:57 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 15:08:57 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 15:08:57 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 15:09:35 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:09:35.252246')
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:09:35.252246')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (5.1ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 84ms (Views: 82.6ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/_colors.css?body=1" for 127.0.0.1 at 2015-09-22 15:09:35 -0500
+
+
+Started GET "/assets/layouts.css?body=1" for 127.0.0.1 at 2015-09-22 15:09:35 -0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 15:09:35 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 15:09:35 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 15:09:35 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 15:09:35 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 15:09:35 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 15:09:35 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 15:09:35 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 15:09:35 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 15:09:35 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 15:09:35 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 15:09:35 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 15:10:06 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:10:06.380846')
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:10:06.380846')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (4.2ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 66ms (Views: 65.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/_colors.css?body=1" for 127.0.0.1 at 2015-09-22 15:10:06 -0500
+
+
+Started GET "/assets/layouts.css?body=1" for 127.0.0.1 at 2015-09-22 15:10:06 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 15:10:06 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 15:10:06 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 15:10:06 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 15:10:06 -0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 15:10:06 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 15:10:06 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 15:10:06 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 15:10:06 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 15:10:06 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 15:10:06 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 15:10:06 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 15:13:08 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:13:08.302786')
+  [1m[36mProject Load (0.5ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:13:08.302786')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 84ms (Views: 82.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/_colors.css?body=1" for 127.0.0.1 at 2015-09-22 15:13:08 -0500
+
+
+Started GET "/assets/layouts.css?body=1" for 127.0.0.1 at 2015-09-22 15:13:08 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 15:13:08 -0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 15:13:08 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 15:13:08 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 15:13:08 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 15:13:08 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 15:13:08 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 15:13:08 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 15:13:08 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 15:13:08 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 15:13:08 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 15:13:08 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 15:14:21 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:14:21.634930')
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:14:21.634930')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (6.7ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 60ms (Views: 58.2ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/assets/_colors.css?body=1" for 127.0.0.1 at 2015-09-22 15:14:21 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 15:14:21 -0500
+
+
+Started GET "/assets/layouts.css?body=1" for 127.0.0.1 at 2015-09-22 15:14:21 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 15:14:21 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 15:14:21 -0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 15:14:21 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 15:14:21 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 15:14:21 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 15:14:21 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 15:14:21 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 15:14:21 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 15:14:21 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 15:14:21 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 15:21:58 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.5ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:21:58.177085')
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:21:58.177085')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (13.1ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 63ms (Views: 58.4ms | ActiveRecord: 1.3ms)
+
+
+Started GET "/assets/_colors.css?body=1" for 127.0.0.1 at 2015-09-22 15:21:58 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 15:21:58 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 15:21:58 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 15:21:58 -0500
+
+
+Started GET "/assets/layouts.css?body=1" for 127.0.0.1 at 2015-09-22 15:21:58 -0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 15:21:58 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 15:21:58 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 15:21:58 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 15:21:58 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 15:21:58 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 15:21:58 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 15:21:58 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 15:21:58 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 15:22:24 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:22:24.242541')
+  [1m[36mProject Load (0.2ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:22:24.242541')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (16.2ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 60ms (Views: 56.3ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/layouts.css?body=1" for 127.0.0.1 at 2015-09-22 15:22:24 -0500
+
+
+Started GET "/assets/_colors.css?body=1" for 127.0.0.1 at 2015-09-22 15:22:24 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 15:22:24 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 15:22:24 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 15:22:24 -0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 15:22:24 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 15:22:24 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 15:22:24 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 15:22:24 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 15:22:24 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 15:22:24 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 15:22:24 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 15:22:24 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 15:22:40 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:22:40.985866')
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:22:40.985866')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (12.7ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 69ms (Views: 65.2ms | ActiveRecord: 1.1ms)
+
+
+Started GET "/assets/_colors.css?body=1" for 127.0.0.1 at 2015-09-22 15:22:41 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 15:22:41 -0500
+
+
+Started GET "/assets/layouts.css?body=1" for 127.0.0.1 at 2015-09-22 15:22:41 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 15:22:41 -0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 15:22:41 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 15:22:41 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 15:22:41 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 15:22:41 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 15:22:41 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 15:22:41 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 15:22:41 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 15:22:41 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 15:22:41 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 15:23:05 -0500
+Processing by ProjectsController#index as HTML
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:23:05.787594')
+  [1m[36mProject Load (0.3ms)[0m  [1mSELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:23:05.787594')  ORDER BY pledging_ends_on[0m
+  Rendered projects/index.html.erb within layouts/application (13.0ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 59ms (Views: 55.9ms | ActiveRecord: 1.4ms)
+
+
+Started GET "/assets/_colors.css?body=1" for 127.0.0.1 at 2015-09-22 15:23:05 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 15:23:05 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 15:23:05 -0500
+
+
+Started GET "/assets/layouts.css?body=1" for 127.0.0.1 at 2015-09-22 15:23:05 -0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 15:23:05 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 15:23:05 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 15:23:05 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 15:23:05 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 15:23:05 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 15:23:05 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 15:23:05 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 15:23:05 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 15:23:05 -0500
+
+
+Started GET "/projects/3" for 127.0.0.1 at 2015-09-22 15:23:13 -0500
+Processing by ProjectsController#show as HTML
+  Parameters: {"id"=>"3"}
+  [1m[35mProject Load (0.5ms)[0m  SELECT  "projects".* FROM "projects"  WHERE "projects"."id" = ? LIMIT 1  [["id", 3]]
+  Rendered projects/show.html.erb within layouts/application (2.3ms)
+  Rendered layouts/_header.html.erb (0.3ms)
+  Rendered layouts/_sidebar.html.erb (0.6ms)
+  Rendered layouts/_footer.html.erb (0.4ms)
+Completed 200 OK in 52ms (Views: 48.7ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 15:23:13 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 15:24:24 -0500
+Processing by ProjectsController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:24:24.327988')[0m
+  [1m[35mProject Load (0.4ms)[0m  SELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:24:24.327988')  ORDER BY pledging_ends_on
+  Rendered projects/index.html.erb within layouts/application (5.7ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 80ms (Views: 78.4ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/assets/_colors.css?body=1" for 127.0.0.1 at 2015-09-22 15:24:24 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 15:24:24 -0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 15:24:24 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 15:24:24 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 15:24:24 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 15:24:24 -0500
+
+
+Started GET "/assets/layouts.css?body=1" for 127.0.0.1 at 2015-09-22 15:24:24 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 15:24:24 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 15:24:24 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 15:24:24 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 15:24:24 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 15:24:24 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 15:24:24 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 15:24:35 -0500
+Processing by ProjectsController#index as HTML
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:24:35.333959')[0m
+  [1m[35mProject Load (0.1ms)[0m  SELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:24:35.333959')  ORDER BY pledging_ends_on
+  Rendered projects/index.html.erb within layouts/application (4.0ms)
+  Rendered layouts/_header.html.erb (0.0ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.1ms)
+Completed 200 OK in 82ms (Views: 80.6ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/assets/_colors.css?body=1" for 127.0.0.1 at 2015-09-22 15:24:35 -0500
+
+
+Started GET "/assets/layouts.css?body=1" for 127.0.0.1 at 2015-09-22 15:24:35 -0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 15:24:35 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 15:24:35 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 15:24:35 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 15:24:35 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 15:24:35 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 15:24:35 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 15:24:35 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 15:24:35 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 15:24:35 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 15:24:35 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 15:24:35 -0500
+
+
+Started GET "/" for 127.0.0.1 at 2015-09-22 15:24:42 -0500
+Processing by ProjectsController#index as HTML
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:24:42.461706')[0m
+  [1m[35mProject Load (0.2ms)[0m  SELECT "projects".* FROM "projects"  WHERE (pledging_ends_on >= '2015-09-22 20:24:42.461706')  ORDER BY pledging_ends_on
+  Rendered projects/index.html.erb within layouts/application (5.3ms)
+  Rendered layouts/_header.html.erb (0.1ms)
+  Rendered layouts/_sidebar.html.erb (0.2ms)
+  Rendered layouts/_footer.html.erb (0.2ms)
+Completed 200 OK in 83ms (Views: 81.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/_colors.css?body=1" for 127.0.0.1 at 2015-09-22 15:24:42 -0500
+
+
+Started GET "/assets/projects.css?body=1" for 127.0.0.1 at 2015-09-22 15:24:42 -0500
+
+
+Started GET "/assets/layouts.css?body=1" for 127.0.0.1 at 2015-09-22 15:24:42 -0500
+
+
+Started GET "/assets/turbolinks.js?body=1" for 127.0.0.1 at 2015-09-22 15:24:42 -0500
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2015-09-22 15:24:42 -0500
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2015-09-22 15:24:42 -0500
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2015-09-22 15:24:42 -0500
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2015-09-22 15:24:42 -0500
+
+
+Started GET "/assets/projects.js?body=1" for 127.0.0.1 at 2015-09-22 15:24:42 -0500
+
+
+Started GET "/assets/project.png" for 127.0.0.1 at 2015-09-22 15:24:42 -0500
+
+
+Started GET "/assets/cookie_wookie.jpg" for 127.0.0.1 at 2015-09-22 15:24:42 -0500
+
+
+Started GET "/assets/ovenbits.jpg" for 127.0.0.1 at 2015-09-22 15:24:42 -0500
+
+
+Started GET "/assets/lil_peter.jpg" for 127.0.0.1 at 2015-09-22 15:24:42 -0500

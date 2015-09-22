@@ -10,9 +10,9 @@ module ProjectsHelper
 
   def image_for(project)
     if project.image_file_name.blank?
-      image_tag('project.png', :size => '200x200')
+      image_tag('project.png', :size => '110x110')
     else
-      image_tag(project.image_file_name, :size => '200x200')
+      image_tag(project.image_file_name, :size => '110x110')
     end
   end
   

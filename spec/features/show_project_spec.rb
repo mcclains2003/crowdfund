@@ -3,7 +3,7 @@ require 'spec_helper'
 describe "Viewing an individual project" do
 
   it "shows the project's details" do
-    project = Project.create(project_attributes(target_pledge_amount: 100, pledging_ends_on: 1.week.from_now))
+    project = Project.create(project_attributes(target_pledge_amount: 100, pledging_ends_on: 1.week.from_now.in_time_zone("Central Time (US & Canada)")))
 
     visit project_url(project)
 
@@ -17,7 +17,7 @@ describe "Viewing an individual project" do
   end
 
   it "shows the days remaining if the pledging end date is in the future" do
-    project = Project.create(project_attributes(pledging_ends_on: 1.week.from_now))
+    project = Project.create(project_attributes(pledging_ends_on: 1.week.from_now.in_time_zone("Central Time (US & Canada)")))
 
     visit project_url(project)
 
@@ -25,7 +25,7 @@ describe "Viewing an individual project" do
   end
 
   it "shows 'All Done!' if the pledging end date is in the past" do
-    project = Project.create(project_attributes(pledging_ends_on: 2.days.ago))
+    project = Project.create(project_attributes(pledging_ends_on: 1.week.ago))
 
     visit project_url(project)
 

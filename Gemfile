@@ -45,6 +45,8 @@ gem 'sdoc', '~> 0.4.0', group: :doc
 # Use debugger
 # gem 'debugger', group: [:development, :test]
 
+gem 'pry', :group => :development
+
 group :test, :development do
   gem "test-unit"
   gem "minitest"

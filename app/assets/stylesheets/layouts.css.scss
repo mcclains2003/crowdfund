@@ -1,0 +1,18 @@
+@import 'colors';
+
+header#page-header {
+  padding: 5px;
+  background: $primary;
+  border-bottom: 3px solid darken($secondary, 35%);
+}
+
+aside#sidebar {
+  background: $secondary;
+  float: right;
+  width: 200px;
+}
+
+footer#page-footer {
+  padding: 5px;
+  background: $primary;
+}
